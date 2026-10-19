@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of IGIRANEZA Lachaï-Roï, full-stack developer in Burundi: HALLELUAH, Kora Material Hub (KENA) and a hospital management system." />
+  <title>IGIRANEZA Lachaï-Roï | Full-Stack Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Portfolio home"><span class="brand-mark">&lt;/&gt;</span><span>LACHAÏ-ROÏ<span class="brand-muted">.DEV</span></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="nav" id="nav">
+      <a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#about">About</a><a class="nav-contact" href="#contact">Contact <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> OPEN TO OPPORTUNITIES <span class="eyebrow-divider">/</span> MEDIABOX APPLICATION</div>
+        <h1>Building software<br>that <span class="gradient-text">solves real</span><br>problems.</h1>
+        <p class="hero-description">I'm a Computer Science student and full-stack developer from Burundi, focused on building useful, maintainable applications across frontend experiences, backend systems, and data-driven workflows.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#projects">Explore my work <span>↘</span></a><a class="button button-secondary" href="#contact">Get in touch <span>↗</span></a></div>
+        <div class="hero-meta"><div><span class="meta-label">FOCUS</span><strong>Full-Stack Development</strong></div><div><span class="meta-label">APPROACH</span><strong>Build · Test · Improve</strong></div></div>
+      </div>
+      <div class="hero-visual" aria-label="Decorative code editor illustration">
+        <div class="editor-window">
+          <div class="editor-top"><div class="window-dots"><i></i><i></i><i></i></div><span>developer.ts</span><span class="editor-lock">⌁</span></div>
+          <div class="editor-body">
+            <div class="line"><span class="line-no">01</span><code><b>const</b> developer = {</code></div>
+            <div class="line indent"><span class="line-no">02</span><code>name: <em>"<span id="heroName">IGIRANEZA Lachaï-Roï</span>"</em>,</code></div>
+            <div class="line indent"><span class="line-no">03</span><code>role: <em>"Full-Stack Developer"</em>,</code></div>
+            <div class="line indent"><span class="line-no">04</span><code>mindset: <em>"Always learning"</em>,</code></div>
+            <div class="line indent"><span class="line-no">05</span><code>builds: [</code></div>
+            <div class="line indent deeper"><span class="line-no">06</span><code><em>"Web applications"</em>,</code></div>
+            <div class="line indent deeper"><span class="line-no">07</span><code><em>"Backend systems"</em>,</code></div>
+            <div class="line indent deeper"><span class="line-no">08</span><code><em>"Practical solutions"</em></code></div>
+            <div class="line indent"><span class="line-no">09</span><code>]</code></div>
+            <div class="line"><span class="line-no">10</span><code>};</code></div>
+            <div class="editor-footer"><span><i class="status-dot"></i> Ready to build</span><span>UTF-8&nbsp; · &nbsp;TypeScript</span></div>
+          </div>
+        </div>
+        <div class="floating-chip chip-top"><span class="chip-icon">✳</span><span><b>Thoughtful solutions</b><small>Built with purpose</small></span></div>
+        <div class="floating-chip chip-bottom"><span class="chip-icon blue">↗</span><span><b>3 featured projects</b><small>Explore the work</small></span></div>
+      </div>
+      <a class="scroll-cue" href="#projects"><span class="scroll-line"></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section-wrap projects-section" id="projects">
+      <div class="section-heading">
+        <div><div class="eyebrow">01 / SELECTED WORK</div><h2>Projects with <span class="gradient-text">purpose.</span></h2></div>
+        <p>Three projects built during my studies: practical systems with clear interfaces and real full-stack work.</p>
+      </div>
+      <div class="project-grid">
+        <article class="project-card project-featured">
+          <div class="project-art hotel-art">
+            <img class="real-project-screenshot" src="assets/HALLELUAH_dashboard.png" alt="HALLELUAH hotel management dashboard" loading="lazy" onload="this.parentElement.classList.add('has-shot')" onerror="this.remove()">
+            <div class="mock-window">
+              <div class="mock-sidebar"><span class="mock-logo">H.</span><i class="active"></i><i></i><i></i><i></i><div class="mock-avatar"></div></div>
+              <div class="mock-main"><div class="mock-heading"><span>Overview</span><small>Hotel operations</small></div><div class="mock-stats"><div><small>Rooms</small><b>—</b><span>Room inventory</span></div><div><small>Reservations</small><b>—</b><span>Booking overview</span></div></div><div class="mock-table"><div class="mock-table-head"><span>ROOM MANAGEMENT</span><span>STATUS</span></div><div><i></i><span>Room records</span><b>Manage</b></div><div><i></i><span>Guest bookings</span><b>Review</b></div><div><i></i><span>Billing records</span><b>Track</b></div></div></div>
+            </div><span class="art-label">01 — OPERATIONS</span>
+          </div>
+          <div class="project-content"><div class="project-overline"><span>DESKTOP / BUSINESS SYSTEM</span><span class="project-index">01</span></div><h3>HALLELUAH</h3><p class="project-subtitle">Hotel Management System</p><p>A desktop hotel application for managing rooms, reservations and guests, with role-based dashboards, internal messaging and PDF/CSV exports.</p><div class="tags"><span>C#</span><span>Windows Forms</span><span>MySQL</span></div><div class="card-links"><button class="text-link project-details" data-project="hallelujah">Explore case study <span>↗</span></button><a class="text-link" data-repo="hallelujah" href="https://github.com/Lalo123Igiraneza" target="_blank" rel="noreferrer">GitHub <span>↗</span></a></div></div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-art stock-art">
+            <img class="real-project-screenshot" src="assets/KENA_dashboard.png" alt="Kora Material Hub (KENA) dashboard" loading="lazy" onload="this.parentElement.classList.add('has-shot')" onerror="this.remove()">
+            <div class="stock-top"><span class="stock-brand"><i></i> stockflow</span><span class="stock-user">Workspace ↗</span></div>
+            <div class="stock-title">Inventory overview <span>↗</span></div>
+            <div class="stock-kpis"><div><small>Products</small><b>Inventory</b><span>Catalog management</span></div><div><small>Stock levels</small><b>Tracking</b><span>Availability view</span></div></div>
+            <div class="stock-chart"><div class="chart-label">Stock activity <span>Overview</span></div><div class="bars"><i style="height:34%"></i><i style="height:48%"></i><i style="height:40%"></i><i style="height:67%"></i><i style="height:55%"></i><i style="height:82%"></i><i style="height:61%"></i><i style="height:92%"></i><i style="height:74%"></i><i style="height:100%"></i><i style="height:78%"></i><i style="height:88%"></i></div></div>
+            <span class="art-label">02 — INVENTORY</span>
+          </div>
+          <div class="project-content"><div class="project-overline"><span>WEB APPLICATION</span><span class="project-index">02</span></div><h3>Kora Material Hub</h3><p class="project-subtitle">StockFlow / KENA · Raw Materials Platform</p><p>A web app for tracking warehouse raw materials, with Admin, Manager and Employee roles, charts, and PDF/Excel reports.</p><div class="tags"><span>React</span><span>Redux Toolkit</span><span>Tailwind CSS</span><span>MongoDB</span></div><div class="card-links"><button class="text-link project-details" data-project="kena">Explore case study <span>↗</span></button><a class="text-link" data-repo="kena" href="https://github.com/Lalo123Igiraneza" target="_blank" rel="noreferrer">GitHub <span>↗</span></a></div></div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-art hospital-art">
+            <img class="real-project-screenshot" src="assets/HOSPITAL_dashboard.png" alt="Hospital management system dashboard" loading="lazy" onload="this.parentElement.classList.add('has-shot')" onerror="this.remove()">
+            <div class="hospital-top"><span class="hospital-brand"><i>+</i> care<span>desk</span></span><span class="hospital-pill">Management</span></div>
+            <div class="hospital-welcome">Hospital workspace <small>Care operations interface</small></div>
+            <div class="hospital-panels"><div class="hospital-panel"><span>Patient records</span><b>Organized data</b><div class="patient-row"><i></i><span></span><em></em></div><div class="patient-row"><i></i><span></span><em></em></div><div class="patient-row"><i></i><span></span><em></em></div></div><div class="hospital-panel"><span>Service overview</span><div class="ring"><b>UI</b></div><small>Structured workflow</small></div></div>
+            <span class="art-label">03 — HEALTHCARE</span>
+          </div>
+          <div class="project-content"><div class="project-overline"><span>WEB INTERFACE</span><span class="project-index">03</span></div><h3>Hospital Management</h3><p class="project-subtitle">Healthcare Administration Interface</p><p>A React and TypeScript interface for managing patient records and hospital operations, connected to backend services through gRPC.</p><div class="tags"><span>React</span><span>TypeScript</span><span>gRPC</span></div><div class="card-links"><button class="text-link project-details" data-project="hospital">Explore case study <span>↗</span></button><a class="text-link" data-repo="hospital" href="https://github.com/Lalo123Igiraneza" target="_blank" rel="noreferrer">GitHub <span>↗</span></a></div></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="skills-section" id="skills"><div class="section-wrap">
+      <div class="section-heading"><div><div class="eyebrow">02 / TOOLKIT</div><h2>Technology I <span class="gradient-text">work with.</span></h2></div><p>A practical toolkit across user interfaces, application logic, APIs, and data persistence.</p></div>
+      <div class="skills-layout"><div class="skills-intro"><div class="skills-symbol">&lt; / &gt;</div><h3>From interface<br>to database.</h3><p>I enjoy understanding how the pieces of an application fit together, from the user experience through to backend logic and stored data.</p></div><div class="skill-groups">
+        <div class="skill-group"><span class="skill-number">01</span><div><h4>Frontend</h4><p>Building clear, responsive user experiences.</p><div class="skill-tags"><span>React</span><span>TypeScript</span><span>JavaScript</span><span>Tailwind CSS</span><span>Flutter</span></div></div></div>
+        <div class="skill-group"><span class="skill-number">02</span><div><h4>Backend & APIs</h4><p>Application logic and service communication.</p><div class="skill-tags"><span>C#</span><span>Java</span><span>Spring Boot</span><span>PHP</span><span>REST APIs</span><span>gRPC</span></div></div></div>
+        <div class="skill-group"><span class="skill-number">03</span><div><h4>Data & State</h4><p>Organizing application data and state.</p><div class="skill-tags"><span>MySQL</span><span>MongoDB</span><span>Oracle PL/SQL</span><span>Redux Toolkit</span></div></div></div>
+        <div class="skill-group"><span class="skill-number">04</span><div><h4>Workflow</h4><p>Tools that support building and debugging.</p><div class="skill-tags"><span>Git</span><span>GitHub</span><span>VS Code</span><span>Postman</span></div></div></div>
+      </div></div>
+    </div></section>
+
+    <section class="about-section section-wrap" id="about">
+      <div class="section-heading"><div><div class="eyebrow">03 / A LITTLE ABOUT ME</div><h2>Curious by nature.<br><span class="gradient-text">Practical by design.</span></h2></div></div>
+      <div class="about-grid"><div class="about-lead"><span class="quote-mark">“</span><p>I’m a Software Engineering student at Bujumbura International University, building complete applications and turning ideas into working software.</p></div><div class="about-details"><p>My interests span frontend development, backend systems, and the data models that connect them. I value understandable code, thoughtful problem-solving, and solutions that address real user needs.</p><p>For my next step, I’m looking to contribute to a team, learn from experienced developers, and keep improving through real-world product work.</p><div class="about-note"><span class="status-dot"></span> Interested in collaborative development and continuous learning</div></div></div>
+    </section>
+
+    <section class="contact-section section-wrap" id="contact">
+      <div class="contact-card"><div class="eyebrow">04 / LET'S CONNECT</div><h2>Have a project<br>in mind? <span class="gradient-text">Let's talk.</span></h2><p>I’m interested in opportunities to build useful products, collaborate with a team, and grow as a developer.</p><div class="contact-actions"><a class="button button-primary" id="emailLink" href="mailto:your.email@example.com">Email me <span>↗</span></a><button class="button button-secondary" id="copyEmail">Copy email <span>⧉</span></button></div><div class="contact-links"><a id="githubLink" href="https://github.com/Lalo123Igiraneza" target="_blank" rel="noreferrer">GitHub ↗</a><a id="phoneLink" href="#" hidden>Phone</a><a id="linkedinLink" href="#" target="_blank" rel="noreferrer" hidden>LinkedIn ↗</a><span>Bujumbura, Burundi · Open to opportunities</span></div></div>
+    </section>
+  </main>
+  <footer class="footer section-wrap"><a class="brand" href="#home"><span class="brand-mark">&lt;/&gt;</span><span>LACHAÏ-ROÏ<span class="brand-muted">.DEV</span></span></a><span>© 2026 IGIRANEZA Lachaï-Roï</span><a href="#home">Back to top ↑</a></footer>
+
+  <div class="modal-backdrop" id="projectModal" aria-hidden="true">
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" id="modalClose" aria-label="Close case study">×</button>
+      <div class="eyebrow" id="modalEyebrow">PROJECT CASE STUDY</div><h2 id="modalTitle">Project title</h2><p class="modal-subtitle" id="modalSubtitle"></p><p id="modalDescription"></p>
+      <div class="modal-gallery" id="modalGallery"></div>
+      <div class="modal-columns"><div><h4>Key features</h4><ul id="modalFeatures"></ul></div><div><h4>Technology</h4><div class="tags" id="modalTags"></div></div></div>
+      <div class="modal-actions"><a id="modalGithub" class="button button-primary" href="https://github.com/" target="_blank" rel="noreferrer">View on GitHub ↗</a><button class="button button-secondary" id="modalDone">Close</button></div>
+    </div>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
